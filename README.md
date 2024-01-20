@@ -35,8 +35,8 @@ python flappy.py
 
 Forma de distribucion
     ```bash
-        pyinstaller --onefile flappy.py
-        # En sistemas basados en Windows
+    pyinstaller --onefile flappy.py
+    # En sistemas basados en Windows
     dist\flappy.exe
 
     # En sistemas basados en Unix
