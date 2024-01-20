@@ -37,6 +37,8 @@ Forma de distribucion del juego
 
 ```bash
 pip install pyinstaller
+# Creacion del ejecutable
+pyinstaller --onefile flappy.py
 # En sistemas basados en Windows
 dist\flappy.exe
 # En sistemas basados en Unix
