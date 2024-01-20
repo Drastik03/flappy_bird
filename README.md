@@ -33,12 +33,11 @@ python flappy.py
 ```
 ## Conversion a .exe (archivo ejecutable)
 
-Forma de distribucion
-    ```bash
-    pyinstaller --onefile flappy.py
-    # En sistemas basados en Windows
-    dist\flappy.exe
+Forma de distribucion del juego
 
-    # En sistemas basados en Unix
-    ./dist/flappy
-    ```
+```bash
+pip install pyinstaller
+# En sistemas basados en Windows
+dist\flappy.exe
+# En sistemas basados en Unix
+./dist/flappy
